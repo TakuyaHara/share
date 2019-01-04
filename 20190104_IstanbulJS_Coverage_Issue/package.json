@@ -1,0 +1,16 @@
+{
+  "name": "istanbuljs_coverage_issue",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2"
+  },
+  "scripts": {
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

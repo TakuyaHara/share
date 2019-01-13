@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for 2_Function/0_Normal/ArrowFunction.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">2_Function/0_Normal</a> ArrowFunction.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>25/50</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.85% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">83.33% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>25/30</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function() {
+  // No argument
+  const arrowFunction01 = <span class="fstat-no start-line-3 start-column-26" title="function not covered" >()</span> =&gt; { <span class="cstat-no start-line-3 start-column-34" title="statement not covered" >return "foo"</span>; };
+  const arrowFunction02 = <span class="fstat-no start-line-4 start-column-26" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no start-line-5 start-column-4" title="statement not covered" >    return "foo"</span>;
+  };
+  const arrowFunction03 = <span class="fstat-no start-line-7 start-column-26" title="function not covered" >()</span> =&gt; <span class="cstat-no start-line-7 start-column-32" title="statement not covered" >"foo"</span>;
+  const arrowFunction04 = <span class="fstat-no start-line-8 start-column-26" title="function not covered" >()</span> =&gt; (<span class="cstat-no start-line-8 start-column-33" title="statement not covered" >{ foo: "bar" }</span>);
+  const arrowFunction05 = <span class="fstat-no start-line-9 start-column-26" title="function not covered" >()</span> =&gt; (<span class="cstat-no start-line-9 start-column-33" title="statement not covered" >{</span>
+<span class="cstat-no start-line-9 start-column-33" title="statement not covered" >    foo: "bar"</span>
+<span class="cstat-no start-line-9 start-column-33" title="statement not covered" >  }</span>);
+&nbsp;
+  // Single argument without parenthesis
+  const arrowFunction11 = <span class="fstat-no start-line-14 start-column-26" title="function not covered" >foo</span> =&gt; { <span class="cstat-no start-line-14 start-column-35" title="statement not covered" >return "foo"</span>; };
+  const arrowFunction12 = <span class="fstat-no start-line-15 start-column-26" title="function not covered" >foo</span> =&gt; {
+<span class="cstat-no start-line-16 start-column-4" title="statement not covered" >    return "foo"</span>;
+  };
+  const arrowFunction13 = <span class="fstat-no start-line-18 start-column-26" title="function not covered" >foo</span> =&gt; <span class="cstat-no start-line-18 start-column-33" title="statement not covered" >"foo"</span>;
+  const arrowFunction14 = <span class="fstat-no start-line-19 start-column-26" title="function not covered" >foo</span> =&gt; (<span class="cstat-no start-line-19 start-column-34" title="statement not covered" >{ foo: "bar" }</span>);
+  const arrowFunction15 = <span class="fstat-no start-line-20 start-column-26" title="function not covered" >foo</span> =&gt; (<span class="cstat-no start-line-20 start-column-34" title="statement not covered" >{</span>
+<span class="cstat-no start-line-20 start-column-34" title="statement not covered" >    foo: "bar"</span>
+<span class="cstat-no start-line-20 start-column-34" title="statement not covered" >  }</span>);
+&nbsp;
+  // Single argument with parenthesis
+  const arrowFunction21 = <span class="fstat-no start-line-25 start-column-26" title="function not covered" >(foo)</span> =&gt; { <span class="cstat-no start-line-25 start-column-37" title="statement not covered" >return "foo"</span>; };
+  const arrowFunction22 = <span class="fstat-no start-line-26 start-column-26" title="function not covered" >(foo)</span> =&gt; {
+<span class="cstat-no start-line-27 start-column-4" title="statement not covered" >    return "foo"</span>;
+  };
+  const arrowFunction23 = <span class="fstat-no start-line-29 start-column-26" title="function not covered" >(foo)</span> =&gt; <span class="cstat-no start-line-29 start-column-35" title="statement not covered" >"foo"</span>;
+  const arrowFunction24 = <span class="fstat-no start-line-30 start-column-26" title="function not covered" >(foo)</span> =&gt; (<span class="cstat-no start-line-30 start-column-36" title="statement not covered" >{ foo: "bar" }</span>);
+  const arrowFunction25 = <span class="fstat-no start-line-31 start-column-26" title="function not covered" >(foo)</span> =&gt; (<span class="cstat-no start-line-31 start-column-36" title="statement not covered" >{</span>
+<span class="cstat-no start-line-31 start-column-36" title="statement not covered" >    foo: "bar"</span>
+<span class="cstat-no start-line-31 start-column-36" title="statement not covered" >  }</span>);
+&nbsp;
+  // Multiple arguments
+  const arrowFunction31 = <span class="fstat-no start-line-36 start-column-26" title="function not covered" >(foo, bar)</span> =&gt; { <span class="cstat-no start-line-36 start-column-42" title="statement not covered" >return "foo"</span>; };
+  const arrowFunction32 = <span class="fstat-no start-line-37 start-column-26" title="function not covered" >(foo, bar)</span> =&gt; {
+<span class="cstat-no start-line-38 start-column-4" title="statement not covered" >    return "foo"</span>;
+  };
+  const arrowFunction33 = <span class="fstat-no start-line-40 start-column-26" title="function not covered" >(foo, bar)</span> =&gt; <span class="cstat-no start-line-40 start-column-40" title="statement not covered" >"foo"</span>;
+  const arrowFunction34 = <span class="fstat-no start-line-41 start-column-26" title="function not covered" >(foo, bar)</span> =&gt; (<span class="cstat-no start-line-41 start-column-41" title="statement not covered" >{ foo: "bar" }</span>);
+  const arrowFunction35 = <span class="fstat-no start-line-42 start-column-26" title="function not covered" >(foo, bar)</span> =&gt; (<span class="cstat-no start-line-42 start-column-41" title="statement not covered" >{</span>
+<span class="cstat-no start-line-42 start-column-41" title="statement not covered" >    foo: "bar"</span>
+<span class="cstat-no start-line-42 start-column-41" title="statement not covered" >  }</span>);
+&nbsp;
+  // Arguments with default values
+  const arrowFunction41 = <span class="fstat-no start-line-47 start-column-26" title="function not covered" >(foo = <span class="branch-0 cbranch-no start-line-47 start-column-33" title="branch not covered" >"=&gt;"</span>, bar = <span class="branch-0 cbranch-no start-line-47 start-column-45" title="branch not covered" >"()"</span>)</span> =&gt; { <span class="cstat-no start-line-47 start-column-56" title="statement not covered" >return "foo"</span>; };
+  const arrowFunction42 = <span class="fstat-no start-line-48 start-column-26" title="function not covered" >(foo = <span class="branch-0 cbranch-no start-line-48 start-column-33" title="branch not covered" >"=&gt;"</span>, bar = <span class="branch-0 cbranch-no start-line-48 start-column-45" title="branch not covered" >"()"</span>)</span> =&gt; {
+<span class="cstat-no start-line-49 start-column-4" title="statement not covered" >    return "foo"</span>;
+  };
+  const arrowFunction43 = <span class="fstat-no start-line-51 start-column-26" title="function not covered" >(foo = <span class="branch-0 cbranch-no start-line-51 start-column-33" title="branch not covered" >"=&gt;"</span>, bar = <span class="branch-0 cbranch-no start-line-51 start-column-45" title="branch not covered" >"()"</span>)</span> =&gt; <span class="cstat-no start-line-51 start-column-54" title="statement not covered" >"foo"</span>;
+  const arrowFunction44 = <span class="fstat-no start-line-52 start-column-26" title="function not covered" >(foo = <span class="branch-0 cbranch-no start-line-52 start-column-33" title="branch not covered" >"=&gt;"</span>, bar = <span class="branch-0 cbranch-no start-line-52 start-column-45" title="branch not covered" >"()"</span>)</span> =&gt; (<span class="cstat-no start-line-52 start-column-55" title="statement not covered" >{ foo: "bar" }</span>);
+  const arrowFunction45 = <span class="fstat-no start-line-53 start-column-26" title="function not covered" >(foo = <span class="branch-0 cbranch-no start-line-53 start-column-33" title="branch not covered" >"=&gt;"</span>, bar = <span class="branch-0 cbranch-no start-line-53 start-column-45" title="branch not covered" >"()"</span>)</span> =&gt; (<span class="cstat-no start-line-53 start-column-55" title="statement not covered" >{</span>
+<span class="cstat-no start-line-53 start-column-55" title="statement not covered" >    foo: "bar"</span>
+<span class="cstat-no start-line-53 start-column-55" title="statement not covered" >  }</span>);
+};</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 13 2019 23:43:50 GMT+0900 (Japan Standard Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

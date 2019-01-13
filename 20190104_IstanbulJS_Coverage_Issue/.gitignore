@@ -1,0 +1,3 @@
+0_Problem/*/node_modules/
+1_Solution/*/*
+!1_Solution/*/coverage/

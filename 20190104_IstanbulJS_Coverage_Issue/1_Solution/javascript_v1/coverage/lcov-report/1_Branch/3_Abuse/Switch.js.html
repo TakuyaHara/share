@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for 1_Branch/3_Abuse/Switch.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">1_Branch/3_Abuse</a> Switch.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">48.39% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>15/31</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">33.33% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>4/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>4/4</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function() {
+  const obj = {
+    foo: "foo"
+  };
+&nbsp;
+  // === single case ===
+  switch(obj.foo) { <span class="branch-0 cbranch-no start-line-7 start-column-20" title="branch not covered" >case "bar":</span> <span class="cstat-no start-line-7 start-column-32" title="statement not covered" >"bar"</span>; <span class="cstat-no start-line-7 start-column-39" title="statement not covered" >break</span>; } switch(obj.foo) { <span class="branch-0 cbranch-no start-line-7 start-column-66" title="branch not covered" >case "bar":</span> <span class="cstat-no start-line-7 start-column-78" title="statement not covered" >"bar"</span>; <span class="cstat-no start-line-7 start-column-85" title="statement not covered" >break</span>; }
+&nbsp;
+  // === single case, default ===
+  switch(obj.foo) { case "foo": "foo"; break; <span class="branch-1 cbranch-no start-line-10 start-column-46" title="branch not covered" >default:</span> <span class="cstat-no start-line-10 start-column-55" title="statement not covered" >"baz"</span>; <span class="cstat-no start-line-10 start-column-62" title="statement not covered" >break</span>; } switch(obj.foo) { case "foo": "foo"; break; <span class="branch-1 cbranch-no start-line-10 start-column-115" title="branch not covered" >default:</span> <span class="cstat-no start-line-10 start-column-124" title="statement not covered" >"baz"</span>; <span class="cstat-no start-line-10 start-column-131" title="statement not covered" >break</span>; }
+&nbsp;
+  // === multiple cases, default ===
+  switch(obj.foo) { case "foo": "foo"; break; <span class="branch-1 cbranch-no start-line-13 start-column-46" title="branch not covered" >case obj['case "bar":']:</span> <span class="cstat-no start-line-13 start-column-71" title="statement not covered" >"bar"</span>; <span class="cstat-no start-line-13 start-column-78" title="statement not covered" >break</span>; <span class="branch-2 cbranch-no start-line-13 start-column-85" title="branch not covered" >default:</span> <span class="cstat-no start-line-13 start-column-94" title="statement not covered" >"baz"</span>; <span class="cstat-no start-line-13 start-column-101" title="statement not covered" >break</span>; } switch(obj.foo) { case "foo": "foo"; break; <span class="branch-1 cbranch-no start-line-13 start-column-154" title="branch not covered" >case obj['case "bar":']:</span> <span class="cstat-no start-line-13 start-column-179" title="statement not covered" >"bar"</span>; <span class="cstat-no start-line-13 start-column-186" title="statement not covered" >break</span>; <span class="branch-2 cbranch-no start-line-13 start-column-193" title="branch not covered" >default:</span> <span class="cstat-no start-line-13 start-column-202" title="statement not covered" >"baz"</span>; <span class="cstat-no start-line-13 start-column-209" title="statement not covered" >break</span>; }
+};</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 13 2019 23:43:50 GMT+0900 (Japan Standard Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

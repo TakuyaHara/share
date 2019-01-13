@@ -1,0 +1,14 @@
+{
+  "name": "istanbuljs_coverage_issue_javascript_v1",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "1.x"
+  },
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "rm -rf coverage && yarn test --coverage"
+  }
+}

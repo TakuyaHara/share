@@ -1,0 +1,27 @@
+{
+  "name": "istanbuljs_coverage_issue_typescript_v1",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts-ts": "3.1.0"
+  },
+  "scripts": {
+    "test": "react-scripts-ts test --env=jsdom",
+    "coverage": "rm -rf coverage && yarn test --coverage && nyc report"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "nyc": "^13.1.0",
+    "typescript": "^3.2.2"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json"
+    ]
+  }
+}

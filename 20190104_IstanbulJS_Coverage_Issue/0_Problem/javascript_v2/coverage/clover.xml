@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1547390698847" clover="3.2.0">
+  <project timestamp="1547390698848" name="All files">
+    <metrics statements="570" coveredstatements="271" conditionals="353" coveredconditionals="82" methods="357" coveredmethods="36" elements="1280" coveredelements="389" complexity="0" loc="570" ncloc="570" packages="12" files="36" classes="36">
+      <package name="0_Statement.0_Normal">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Normal.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/0_Statement/0_Normal/Normal.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.1_Split">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Split.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/0_Statement/1_Split/Split.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.2_Nested">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Nested.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/0_Statement/2_Nested/Nested.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.3_Abuse">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Abuse.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/0_Statement/3_Abuse/Abuse.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.0_Normal">
+        <metrics statements="54" coveredstatements="31" conditionals="42" coveredconditionals="18" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/0_Normal/ConditionalOperator.js">
+          <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+        </file>
+        <file name="If.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/0_Normal/If.js">
+          <metrics statements="35" coveredstatements="20" conditionals="30" coveredconditionals="13" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/0_Normal/ShortCircuitEvaluation.js">
+          <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
+        </file>
+        <file name="Switch.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/0_Normal/Switch.js">
+          <metrics statements="16" coveredstatements="8" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="cond" truecount="1" falsecount="2"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.1_Split">
+        <metrics statements="51" coveredstatements="28" conditionals="36" coveredconditionals="15" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/1_Split/ConditionalOperator.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        </file>
+        <file name="If.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/1_Split/If.js">
+          <metrics statements="35" coveredstatements="20" conditionals="30" coveredconditionals="13" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/1_Split/ShortCircuitEvaluation.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        </file>
+        <file name="Switch.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/1_Split/Switch.js">
+          <metrics statements="16" coveredstatements="8" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="2"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.2_Nested">
+        <metrics statements="68" coveredstatements="15" conditionals="65" coveredconditionals="13" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/2_Nested/ConditionalOperator.js">
+          <metrics statements="2" coveredstatements="2" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="If.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/2_Nested/If.js">
+          <metrics statements="44" coveredstatements="9" conditionals="48" coveredconditionals="9" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="73" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/2_Nested/ShortCircuitEvaluation.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        </file>
+        <file name="Switch.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/2_Nested/Switch.js">
+          <metrics statements="22" coveredstatements="4" conditionals="9" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="1"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="32" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="3"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.3_Abuse">
+        <metrics statements="16" coveredstatements="16" conditionals="84" coveredconditionals="36" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/3_Abuse/ConditionalOperator.js">
+          <metrics statements="2" coveredstatements="2" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="If.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/3_Abuse/If.js">
+          <metrics statements="9" coveredstatements="9" conditionals="60" coveredconditionals="26" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="6" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="8" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="11" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="13" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="15" count="1" type="cond" truecount="2" falsecount="6"/>
+          <line num="18" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="20" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="22" count="1" type="cond" truecount="2" falsecount="6"/>
+        </file>
+        <file name="ShortCircuitEvaluation.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/3_Abuse/ShortCircuitEvaluation.js">
+          <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="Switch.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/1_Branch/3_Abuse/Switch.js">
+          <metrics statements="4" coveredstatements="4" conditionals="12" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="10" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="13" count="1" type="cond" truecount="2" falsecount="4"/>
+        </file>
+      </package>
+      <package name="2_Function.0_Normal">
+        <metrics statements="70" coveredstatements="41" conditionals="26" coveredconditionals="0" methods="61" coveredmethods="4"/>
+        <file name="ArrowFunction.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/0_Normal/ArrowFunction.js">
+          <metrics statements="30" coveredstatements="25" conditionals="10" coveredconditionals="0" methods="26" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="47" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="51" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="53" count="1" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/0_Normal/ClassMethod.js">
+          <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/0_Normal/FunctionDeclaration.js">
+          <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/0_Normal/FunctionExpression.js">
+          <metrics statements="24" coveredstatements="16" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="47" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.1_Split">
+        <metrics statements="88" coveredstatements="36" conditionals="26" coveredconditionals="0" methods="56" coveredmethods="4"/>
+        <file name="ArrowFunction.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/1_Split/ArrowFunction.js">
+          <metrics statements="40" coveredstatements="20" conditionals="10" coveredconditionals="0" methods="21" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="83" count="1" type="stmt"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="96" count="0" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="101" count="1" type="stmt"/>
+          <line num="104" count="0" type="stmt"/>
+        </file>
+        <file name="ClassMethod.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/1_Split/ClassMethod.js">
+          <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/1_Split/FunctionDeclaration.js">
+          <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/1_Split/FunctionExpression.js">
+          <metrics statements="32" coveredstatements="16" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.2_Nested">
+        <metrics statements="107" coveredstatements="41" conditionals="22" coveredconditionals="0" methods="102" coveredmethods="4"/>
+        <file name="ArrowFunction.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/2_Nested/ArrowFunction.js">
+          <metrics statements="55" coveredstatements="25" conditionals="10" coveredconditionals="0" methods="51" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="77" count="1" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="90" count="1" type="stmt"/>
+          <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="98" count="1" type="stmt"/>
+          <line num="99" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="101" count="1" type="stmt"/>
+          <line num="102" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/2_Nested/ClassMethod.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        </file>
+        <file name="FunctionDeclaration.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/2_Nested/FunctionDeclaration.js">
+          <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/2_Nested/FunctionExpression.js">
+          <metrics statements="40" coveredstatements="16" conditionals="8" coveredconditionals="0" methods="33" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="80" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.3_Abuse">
+        <metrics statements="109" coveredstatements="59" conditionals="52" coveredconditionals="0" methods="118" coveredmethods="4"/>
+        <file name="ArrowFunction.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/3_Abuse/ArrowFunction.js">
+          <metrics statements="45" coveredstatements="35" conditionals="20" coveredconditionals="0" methods="51" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="63" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="64" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="66" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="70" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="71" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="73" count="1" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/3_Abuse/ClassMethod.js">
+          <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/3_Abuse/FunctionDeclaration.js">
+          <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.js" path="/Users/thara/Desktop/share/20190104_IstanbulJS_Coverage_Issue/0_Problem/javascript_v2/src/Test/2_Function/3_Abuse/FunctionExpression.js">
+          <metrics statements="40" coveredstatements="24" conditionals="16" coveredconditionals="0" methods="33" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="28" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="61" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="62" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

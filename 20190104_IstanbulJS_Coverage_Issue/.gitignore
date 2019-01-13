@@ -1,3 +1,5 @@
 0_Problem/*/node_modules/
-1_Solution/*/*
-!1_Solution/*/coverage/
+10_SolutionA/*/*
+!10_SolutionA/*/coverage/
+11_SolutionB/*/*
+!11_SolutionB/*/coverage/

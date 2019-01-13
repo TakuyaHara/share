@@ -136,46 +136,46 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function() {
   // No argument
-  const arrowFunction01 = <span class="fstat-no" title="function not covered" >():</span> string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };
-  const arrowFunction02 = <span class="fstat-no" title="function not covered" >():</span> string =&gt; {
+  const arrowFunction01 = <span class="fstat-no" title="function not covered" >()</span>: string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};
+  const arrowFunction02 = <span class="fstat-no" title="function not covered" >()</span>: string =&gt; {
 <span class="cstat-no" title="statement not covered" >    return "foo";</span>
   };
-  const arrowFunction03 = <span class="fstat-no" title="function not covered" >():</span> string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
-  const arrowFunction04 = <span class="fstat-no" title="function not covered" >():</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
-  const arrowFunction05 = <span class="fstat-no" title="function not covered" >():</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  const arrowFunction03 = <span class="fstat-no" title="function not covered" >()</span>: string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
+  const arrowFunction04 = <span class="fstat-no" title="function not covered" >()</span>: object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
+  const arrowFunction05 = <span class="fstat-no" title="function not covered" >()</span>: object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
     foo: "bar"
   });
 &nbsp;
   // Single argument
-  const arrowFunction11 = <span class="fstat-no" title="function not covered" >(foo: string):</span> string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };
-  const arrowFunction12 = <span class="fstat-no" title="function not covered" >(foo: string):</span> string =&gt; {
+  const arrowFunction11 = <span class="fstat-no" title="function not covered" >(f</span>oo: string): string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};
+  const arrowFunction12 = <span class="fstat-no" title="function not covered" >(f</span>oo: string): string =&gt; {
 <span class="cstat-no" title="statement not covered" >    return "foo";</span>
   };
-  const arrowFunction13 = <span class="fstat-no" title="function not covered" >(foo: string):</span> string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
-  const arrowFunction14 = <span class="fstat-no" title="function not covered" >(foo: string):</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
-  const arrowFunction15 = <span class="fstat-no" title="function not covered" >(foo: string):</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  const arrowFunction13 = <span class="fstat-no" title="function not covered" >(f</span>oo: string): string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
+  const arrowFunction14 = <span class="fstat-no" title="function not covered" >(f</span>oo: string): object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
+  const arrowFunction15 = <span class="fstat-no" title="function not covered" >(f</span>oo: string): object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
     foo: "bar"
   });
 &nbsp;
   // Multiple arguments
-  const arrowFunction21 = <span class="fstat-no" title="function not covered" >(foo: string, bar: string):</span> string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };
-  const arrowFunction22 = <span class="fstat-no" title="function not covered" >(foo: string, bar: string):</span> string =&gt; {
+  const arrowFunction21 = <span class="fstat-no" title="function not covered" >(f</span>oo: string, bar: string): string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};
+  const arrowFunction22 = <span class="fstat-no" title="function not covered" >(f</span>oo: string, bar: string): string =&gt; {
 <span class="cstat-no" title="statement not covered" >    return "foo";</span>
   };
-  const arrowFunction23 = <span class="fstat-no" title="function not covered" >(foo: string, bar: string):</span> string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
-  const arrowFunction24 = <span class="fstat-no" title="function not covered" >(foo: string, bar: string):</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
-  const arrowFunction25 = <span class="fstat-no" title="function not covered" >(foo: string, bar: string):</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  const arrowFunction23 = <span class="fstat-no" title="function not covered" >(f</span>oo: string, bar: string): string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
+  const arrowFunction24 = <span class="fstat-no" title="function not covered" >(f</span>oo: string, bar: string): object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
+  const arrowFunction25 = <span class="fstat-no" title="function not covered" >(f</span>oo: string, bar: string): object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
     foo: "bar"
   });
 &nbsp;
   // Arguments with default values
-  const arrowFunction31 = <span class="fstat-no" title="function not covered" >(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>:</span> string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };
-  const arrowFunction32 = <span class="fstat-no" title="function not covered" >(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>:</span> string =&gt; {
+  const arrowFunction31 = <span class="fstat-no" title="function not covered" >(f</span>oo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};
+  const arrowFunction32 = <span class="fstat-no" title="function not covered" >(f</span>oo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string =&gt; {
 <span class="cstat-no" title="statement not covered" >    return "foo";</span>
   };
-  const arrowFunction33 = <span class="fstat-no" title="function not covered" >(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>:</span> string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
-  const arrowFunction34 = <span class="fstat-no" title="function not covered" >(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>:</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
-  const arrowFunction35 = <span class="fstat-no" title="function not covered" >(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>:</span> object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  const arrowFunction33 = <span class="fstat-no" title="function not covered" >(f</span>oo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span>
+  const arrowFunction34 = <span class="fstat-no" title="function not covered" >(f</span>oo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: object =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;
+  const arrowFunction35 = <span class="fstat-no" title="function not covered" >(f</span>oo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: object =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
     foo: "bar"
   });
 };</pre></td></tr>
@@ -184,7 +184,7 @@
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 13 2019 23:46:05 GMT+0900 (Japan Standard Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jan 14 2019 01:56:29 GMT+0900 (Japan Standard Time)
 </div>
 </div>
 <script src="../../prettify.js"></script>

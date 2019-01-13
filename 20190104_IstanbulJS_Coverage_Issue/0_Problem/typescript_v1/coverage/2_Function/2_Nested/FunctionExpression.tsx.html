@@ -214,7 +214,7 @@
   // Function Expression (anonymous)
   // No argument
   const functionExpressionAnonymous01 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(): string { <span class="cstat-no" title="statement not covered" ></span>return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(): string { <span class="cstat-no" title="statement not covered" ></span>return "foo"; </span>};</span>
   }
   const functionExpressionAnonymous02 = <span class="fstat-no" title="function not covered" >function() {</span>
 <span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(): string {</span></span>
@@ -224,30 +224,30 @@
 &nbsp;
   // Single argument
   const functionExpressionAnonymous11 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string)</span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string): string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionAnonymous12 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string)</span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string): string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
 &nbsp;
   // Multiple arguments
   const functionExpressionAnonymous21 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string, bar: string)</span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string, bar: string): string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionAnonymous22 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string, bar: string)</span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string, bar: string): string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
 &nbsp;
   // Arguments with default values
   const functionExpressionAnonymous31 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span></span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionAnonymous32 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span></span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function(</span>foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
@@ -255,40 +255,40 @@
   // Function Expression (with name)
   // No argument
   const functionExpressionNamed01 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed01(</span>): string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed01(</span>): string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionNamed02 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed02(</span>): string {</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed02(</span>): string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
 &nbsp;
   // Single argument
   const functionExpressionNamed11 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed11(foo: string)</span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed11(</span>foo: string): string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionNamed12 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed12(foo: string)</span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed12(</span>foo: string): string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
 &nbsp;
   // Multiple arguments
   const functionExpressionNamed21 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed21(foo: string, bar: string)</span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed21(</span>foo: string, bar: string): string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionNamed22 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed22(foo: string, bar: string)</span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed22(</span>foo: string, bar: string): string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
 &nbsp;
   // Arguments with default values
   const functionExpressionNamed31 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed31(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span></span>: string { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed31(</span>foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
   const functionExpressionNamed32 = <span class="fstat-no" title="function not covered" >function() {</span>
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >function functionExpressionNamed32(foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span></span>: string {</span>
+<span class="cstat-no" title="statement not covered" >    return function <span class="fstat-no" title="function not covered" >functionExpressionNamed32(</span>foo: string = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar: string = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span>: string {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
@@ -298,7 +298,7 @@
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 13 2019 23:45:24 GMT+0900 (Japan Standard Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jan 14 2019 01:55:50 GMT+0900 (Japan Standard Time)
 </div>
 </div>
 <script src="../../prettify.js"></script>

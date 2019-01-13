@@ -255,106 +255,106 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function() {
   // No argument
-  const arrowFunction01 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >() </span>=&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+  const arrowFunction01 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >()</span> =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
-  const arrowFunction02 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >() </span>=&gt; {</span>
+  const arrowFunction02 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
-  const arrowFunction03 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >() </span>=&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
+  const arrowFunction03 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
   }
-  const arrowFunction04 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >() </span>=&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
+  const arrowFunction04 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
   }
-  const arrowFunction05 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >() </span>=&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
+  const arrowFunction05 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
       foo: "bar"
     });
   }
 &nbsp;
   // Single argument without parenthesis
-  const arrowFunction11 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >foo </span>=&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+  const arrowFunction11 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >fo</span>o =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
-  const arrowFunction12 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >foo </span>=&gt; {</span>
+  const arrowFunction12 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >fo</span>o =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
-  const arrowFunction13 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >foo </span>=&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
+  const arrowFunction13 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >fo</span>o =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
   }
-  const arrowFunction14 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >foo </span>=&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
+  const arrowFunction14 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >fo</span>o =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
   }
-  const arrowFunction15 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >foo </span>=&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
+  const arrowFunction15 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >fo</span>o =&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
       foo: "bar"
     });
   }
 &nbsp;
   // Single argument with parenthesis
-  const arrowFunction21 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo) </span>=&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+  const arrowFunction21 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo) =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
-  const arrowFunction22 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo) </span>=&gt; {</span>
+  const arrowFunction22 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
-  const arrowFunction23 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo) </span>=&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
+  const arrowFunction23 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo) =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
   }
-  const arrowFunction24 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo) </span>=&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
+  const arrowFunction24 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo) =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
   }
-  const arrowFunction25 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo) </span>=&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
+  const arrowFunction25 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo) =&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
       foo: "bar"
     });
   }
 &nbsp;
   // Multiple arguments
-  const arrowFunction31 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo, bar) </span>=&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+  const arrowFunction31 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo, bar) =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
-  const arrowFunction32 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo, bar) </span>=&gt; {</span>
+  const arrowFunction32 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo, bar) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
-  const arrowFunction33 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo, bar) </span>=&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
+  const arrowFunction33 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo, bar) =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
   }
-  const arrowFunction34 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo, bar) </span>=&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
+  const arrowFunction34 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo, bar) =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
   }
-  const arrowFunction35 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo, bar) </span>=&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
+  const arrowFunction35 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo, bar) =&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
       foo: "bar"
     });
   }
 &nbsp;
   // Arguments with default values
-  const arrowFunction41 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> </span>=&gt; { <span class="cstat-no" title="statement not covered" >return "foo";</span> };</span>
+  const arrowFunction41 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> =&gt; { <span class="cstat-no" title="statement not covered" >return "foo"; </span>};</span>
   }
-  const arrowFunction42 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> </span>=&gt; {</span>
+  const arrowFunction42 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >      return "foo";</span>
     };
   }
-  const arrowFunction43 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> </span>=&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
+  const arrowFunction43 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> =&gt; <span class="cstat-no" title="statement not covered" >"foo";</span></span>
   }
-  const arrowFunction44 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> </span>=&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
+  const arrowFunction44 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> =&gt; (<span class="cstat-no" title="statement not covered" >{ foo: "bar" })</span>;</span>
   }
-  const arrowFunction45 = <span class="fstat-no" title="function not covered" >() </span>=&gt; {
-<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(foo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> </span>=&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
+  const arrowFunction45 = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return <span class="fstat-no" title="function not covered" >(f</span>oo = <span class="branch-0 cbranch-no" title="branch not covered" >"=&gt;",</span> bar = <span class="branch-0 cbranch-no" title="branch not covered" >"()")</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span></span>
       foo: "bar"
     });
   }
@@ -364,7 +364,7 @@
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 13 2019 23:44:15 GMT+0900 (Japan Standard Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jan 14 2019 01:54:46 GMT+0900 (Japan Standard Time)
 </div>
 </div>
 <script src="../../prettify.js"></script>

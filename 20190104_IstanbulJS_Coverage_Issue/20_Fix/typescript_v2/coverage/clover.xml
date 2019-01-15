@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1547567540229" clover="3.2.0">
+  <project timestamp="1547567540229" name="All files">
+    <metrics statements="580" coveredstatements="290" conditionals="353" coveredconditionals="82" methods="332" coveredmethods="36" elements="1265" coveredelements="408" complexity="0" loc="580" ncloc="580" packages="12" files="36" classes="36">
+      <package name="0_Statement.0_Normal">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Normal.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/0_Statement/0_Normal/Normal.tsx">
+          <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.1_Split">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Split.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/0_Statement/1_Split/Split.tsx">
+          <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.2_Nested">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Nested.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/0_Statement/2_Nested/Nested.tsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="0_Statement.3_Abuse">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Abuse.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/0_Statement/3_Abuse/Abuse.tsx">
+          <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.0_Normal">
+        <metrics statements="58" coveredstatements="35" conditionals="42" coveredconditionals="18" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/0_Normal/ConditionalOperator.tsx">
+          <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+        </file>
+        <file name="If.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/0_Normal/If.tsx">
+          <metrics statements="36" coveredstatements="21" conditionals="30" coveredconditionals="13" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/0_Normal/ShortCircuitEvaluation.tsx">
+          <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
+        </file>
+        <file name="Switch.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/0_Normal/Switch.tsx">
+          <metrics statements="17" coveredstatements="9" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.1_Split">
+        <metrics statements="55" coveredstatements="32" conditionals="36" coveredconditionals="15" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/1_Split/ConditionalOperator.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="If.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/1_Split/If.tsx">
+          <metrics statements="36" coveredstatements="21" conditionals="30" coveredconditionals="13" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/1_Split/ShortCircuitEvaluation.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="Switch.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/1_Split/Switch.tsx">
+          <metrics statements="17" coveredstatements="9" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.2_Nested">
+        <metrics statements="72" coveredstatements="19" conditionals="65" coveredconditionals="13" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/2_Nested/ConditionalOperator.tsx">
+          <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="If.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/2_Nested/If.tsx">
+          <metrics statements="45" coveredstatements="10" conditionals="48" coveredconditionals="9" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="73" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+        </file>
+        <file name="ShortCircuitEvaluation.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/2_Nested/ShortCircuitEvaluation.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="Switch.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/2_Nested/Switch.tsx">
+          <metrics statements="23" coveredstatements="5" conditionals="9" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="1_Branch.3_Abuse">
+        <metrics statements="20" coveredstatements="20" conditionals="84" coveredconditionals="36" methods="4" coveredmethods="4"/>
+        <file name="ConditionalOperator.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/3_Abuse/ConditionalOperator.tsx">
+          <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="If.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/3_Abuse/If.tsx">
+          <metrics statements="10" coveredstatements="10" conditionals="60" coveredconditionals="26" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="6" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="8" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="11" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="13" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="15" count="1" type="cond" truecount="2" falsecount="6"/>
+          <line num="18" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="20" count="1" type="cond" truecount="4" falsecount="4"/>
+          <line num="22" count="1" type="cond" truecount="2" falsecount="6"/>
+        </file>
+        <file name="ShortCircuitEvaluation.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/3_Abuse/ShortCircuitEvaluation.tsx">
+          <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="cond" truecount="2" falsecount="2"/>
+        </file>
+        <file name="Switch.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/1_Branch/3_Abuse/Switch.tsx">
+          <metrics statements="5" coveredstatements="5" conditionals="12" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="10" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="13" count="1" type="cond" truecount="2" falsecount="4"/>
+        </file>
+      </package>
+      <package name="2_Function.0_Normal">
+        <metrics statements="68" coveredstatements="40" conditionals="26" coveredconditionals="0" methods="56" coveredmethods="4"/>
+        <file name="ArrowFunction.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/0_Normal/ArrowFunction.tsx">
+          <metrics statements="25" coveredstatements="21" conditionals="10" coveredconditionals="0" methods="21" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="36" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="41" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="42" count="1" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/0_Normal/ClassMethod.tsx">
+          <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/0_Normal/FunctionDeclaration.tsx">
+          <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/0_Normal/FunctionExpression.tsx">
+          <metrics statements="25" coveredstatements="17" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="47" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.1_Split">
+        <metrics statements="92" coveredstatements="40" conditionals="26" coveredconditionals="0" methods="56" coveredmethods="4"/>
+        <file name="ArrowFunction.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/1_Split/ArrowFunction.tsx">
+          <metrics statements="41" coveredstatements="21" conditionals="10" coveredconditionals="0" methods="21" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="88" count="0" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="92" count="0" type="stmt"/>
+        </file>
+        <file name="ClassMethod.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/1_Split/ClassMethod.tsx">
+          <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/1_Split/FunctionDeclaration.tsx">
+          <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/1_Split/FunctionExpression.tsx">
+          <metrics statements="33" coveredstatements="17" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.2_Nested">
+        <metrics statements="100" coveredstatements="40" conditionals="22" coveredconditionals="0" methods="92" coveredmethods="4"/>
+        <file name="ArrowFunction.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/2_Nested/ArrowFunction.tsx">
+          <metrics statements="45" coveredstatements="21" conditionals="10" coveredconditionals="0" methods="41" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="77" count="1" type="stmt"/>
+          <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/2_Nested/ClassMethod.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="27" count="1" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/2_Nested/FunctionDeclaration.tsx">
+          <metrics statements="13" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/2_Nested/FunctionExpression.tsx">
+          <metrics statements="41" coveredstatements="17" conditionals="8" coveredconditionals="0" methods="33" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="80" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="2_Function.3_Abuse">
+        <metrics statements="104" coveredstatements="56" conditionals="52" coveredconditionals="0" methods="108" coveredmethods="4"/>
+        <file name="ArrowFunction.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/3_Abuse/ArrowFunction.tsx">
+          <metrics statements="37" coveredstatements="29" conditionals="20" coveredconditionals="0" methods="41" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="48" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="49" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="54" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="55" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="56" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="58" count="1" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="ClassMethod.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/3_Abuse/ClassMethod.tsx">
+          <metrics statements="13" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+        </file>
+        <file name="FunctionDeclaration.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/3_Abuse/FunctionDeclaration.tsx">
+          <metrics statements="13" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+        </file>
+        <file name="FunctionExpression.tsx" path="/Users/thara/share/20190104_IstanbulJS_Coverage_Issue/20_Fix/typescript_v2/src/Test/2_Function/3_Abuse/FunctionExpression.tsx">
+          <metrics statements="41" coveredstatements="25" conditionals="16" coveredconditionals="0" methods="33" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="28" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="61" count="1" type="cond" truecount="0" falsecount="4"/>
+          <line num="62" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

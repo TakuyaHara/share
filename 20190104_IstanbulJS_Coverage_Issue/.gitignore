@@ -1,5 +1,6 @@
-0_Problem/*/node_modules/
+00_Problem/*/node_modules/
 10_SolutionA/*/*
 !10_SolutionA/*/coverage/
 11_SolutionB/*/*
 !11_SolutionB/*/coverage/
+20_Fix/*/node_modules/

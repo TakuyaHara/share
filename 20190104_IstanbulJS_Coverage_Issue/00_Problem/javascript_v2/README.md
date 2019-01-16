@@ -1,4 +1,4 @@
-# 概要
+# About this repository
 This repository is to reproduce environment mentioned in [IstanbulJS generates weirdly highlighted HTML report](https://medium.com/@TakuyaHARA/istanbuljs-generates-weirdly-highlighted-html-report-f233ff5cfead).
 
 # Environment

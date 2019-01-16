@@ -1,8 +1,8 @@
 # 概要
-[IstanbulJS - レポート改善案](https://qiita.com/TakuyaHara/items/52d6fb394185196e2db8)の環境再現用リポジトリ。
+This repository is to reproduce environment mentioned in [IstanbulJS generates weirdly highlighted HTML report](https://medium.com/@TakuyaHARA/istanbuljs-generates-weirdly-highlighted-html-report-f233ff5cfead).
 
-# 環境
-以下の環境にて `create-react-app` を用いてReactプロジェクトを作成したのち、必要なファイルのみを抜粋して本リポジトリへpushしている。
+# Environment
+Excerpt files on this repository have generated via `create-react-app` in the following environment.
 
 * macOS 10.14.2
 * Node v11.1.0
@@ -13,15 +13,15 @@
 $ create-react-app typescript_v1 --scripts-version=react-scripts-ts
 ```
 
-# 再現
-本リポジトリをclone後、以下のコマンドにてカバレッジレポートを生成する。
+# How to reproduce
+Run the following commands to generate coverage report.
 
 ```bash
 $ yarn coverage
 $ open coverage/index.html
 ```
 
-# カバレッジレポート
-生成されるHTMLレポートを下記URLで閲覧できる。
+# See report
+Generated report can be seen here.
 
 https://takuyahara.github.io/share/20190104_IstanbulJS_Coverage_Issue/00_Problem/typescript_v1/coverage/index.html
